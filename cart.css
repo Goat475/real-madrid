@@ -1,0 +1,78 @@
+body{
+background-color: rgb(98, 73, 236);
+}
+.first{
+  display: flex;
+flex-direction: row;
+padding-right: 20px;
+padding: 10px;
+font-size: larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+transition:outline 0.3s ease;
+}
+.first:hover{
+  color: rgb(255, 0, 0);
+  background-color: rgba(148, 246, 253,0.4 );
+outline: 4px solid rgb(63, 63, 63);
+border-radius:15px ;
+}
+.lolol{
+color: rgb(255, 251, 0);
+box-shadow: 0 2pt 10px 5px rgba(0, 0, 0,0.8);
+background-color: rgba(138, 133, 133, 0.8);
+width: 96%;
+position:sticky;
+top: 0;
+z-index: 1;
+display: flex;
+flex-direction: row;
+ align-items: center;
+border-radius: 10px;
+border-color: black;
+border-width: 4px;
+border-style: solid;
+}
+.tyt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right:25px;
+}
+.yu{
+        display: flex;
+    flex-direction: row;
+}
+.id{
+        display: flex;
+    flex-direction: column;
+    padding-left: 51px;
+}
+.yy{
+    width: 100%;
+    height: 35%;
+}
+.ccc{
+padding-left: 50px;
+}
+.info{
+border-color: black;
+border-style:dotted ;
+border-width: 2px;
+border-radius: 10px;
+width: 450px;
+height: 200px;
+}
+.iiii{
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+.pll{
+  border: 2px black solid;
+  border-collapse: collapse;
+}
+.pll th{
+  border-bottom:2px black solid;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
